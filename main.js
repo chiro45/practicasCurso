@@ -15,7 +15,6 @@ export let productoActivo = null;
 export const setproductoActivo = (productoIn) => {
   productoActivo = productoIn;
 };
-
 handleGetProductsToStore();
 renderCategories();
 

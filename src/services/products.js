@@ -51,7 +51,6 @@ const handleSaveOrModifyElements = () => {
 };
 
 //eliminar elemento
-
 export const handleDeleteProduct = () => {
   Swal.fire({
     title: "¿Desea eliminar elemento?",

@@ -3,7 +3,6 @@
 import { categoriaActiva } from "../../main";
 import { handleGetProductLocalStorage } from "../persistence/localStorage";
 import { handleRenderList } from "../views/store";
-
 const handleFilterProductsByCategory = (categoryIn) => {
   const products = handleGetProductLocalStorage();
   switch (categoryIn) {

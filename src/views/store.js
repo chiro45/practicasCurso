@@ -44,8 +44,7 @@ export const handleRenderList = (productosIn) => {
         </div>
         <div class='containerProductStore'>
         ${productosHTML.join("")}
-        </div>
-        
+        </div> 
         </section>
       
       `;

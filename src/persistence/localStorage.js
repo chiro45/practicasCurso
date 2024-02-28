@@ -8,7 +8,6 @@ export const handleGetProductLocalStorage = () => {
     return [];
   }
 };
-
 //guardarEn localStorage
 //recibir un producto
 export const setInLocalStorage = (productIn) => {

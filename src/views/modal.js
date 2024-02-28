@@ -52,7 +52,6 @@ const deleteButton = document.getElementById("deleteButton");
 deleteButton.addEventListener("click", () => {
   handlebuttonDelete();
 });
-
 const handlebuttonDelete = () => {
   handleDeleteProduct();
 };
